@@ -1,0 +1,11 @@
+Host bastion
+    HostName 147.102.230.158
+    User ubuntu
+    IdentityFile ~/.ssh/bastion-key.pem
+
+Host skatsaounis-vm
+    HostName skatsaounis
+    ProxyJump bastion
+    User ubuntu
+    IdentityFile ~/.ssh/skatsaounis-key.pem
+    LocalForward 8080 localhost:8080
