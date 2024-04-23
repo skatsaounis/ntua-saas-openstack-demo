@@ -6,7 +6,7 @@ This repository contains useful material for the OpenStack lab session of SaaS c
 
 | # | Title | Description |
 | - | ----- | ----------- |
-| 1 | [OpenStack Access](docs/1-access.md) | Get access tou DSLab OpenStack |
+| 1 | [OpenStack Access](docs/1-access.md) | Get access to DSLab OpenStack |
 | 2 | [Virtual Machine setup](docs/2-virtual-machine-setup.md) | Creation of Virtual Machine from UI |
 | 3 | [Networking](docs/3-networking.md) | Setup networking for accessing the Virtual Machine |
 | 4 | [Docker](docs/4-docker.md) | Setup Docker and run demo app |

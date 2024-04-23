@@ -2,7 +2,7 @@
 
 To login to OpenStack a combination of username/password is required.
 
-Please pick up one from the list: <https://hastebin.com/share/ezowakadaq.bash>
+Please pick up one from the list: <https://hastebin.com/share/petesokexi.yaml>
 
 ## Login details
 

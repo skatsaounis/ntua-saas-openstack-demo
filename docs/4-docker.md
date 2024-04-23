@@ -22,6 +22,6 @@ docker run -p 8080:3000 -e HELLO_NAME=Stamatis julieio/hello:latest
 
 ## Validation
 
-From our laptop, with the SSH connection still open, we open the browser in: <http://localhost:3000>.
+From our laptop, with the SSH connection still open, we open the browser in: <http://localhost:8080>.
 
 ![docker-demo](images/docker-demo-app.png)

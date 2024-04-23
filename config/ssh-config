@@ -1,5 +1,5 @@
 Host bastion
-    HostName 147.102.230.158
+    HostName 147.102.230.184
     User ubuntu
     IdentityFile ~/.ssh/bastion-key.pem
 

@@ -26,7 +26,7 @@ variable "key_name" {
 }
 
 data "openstack_images_image_v2" "ubuntu" {
-  name        = "ubuntu-20.04"
+  name        = "ubuntu-22.04"
   most_recent = true
 }
 
@@ -46,7 +46,7 @@ resource "openstack_compute_instance_v2" "basic" {
   name            = var.vm_name
   image_id        = data.openstack_images_image_v2.ubuntu.id
   flavor_id       = data.openstack_compute_flavor_v2.small.id
-  key_pair        = data.openstack_compute_keypair_v2.keypair.name
+  key_pair        = openstack_compute_keypair_v2.keypair.name
   security_groups = ["default"]
 
   network {

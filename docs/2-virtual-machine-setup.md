@@ -3,7 +3,7 @@
 - Create an SSH key to be used for accessing the Virtual Machine: <https://console.cloud.ntua.gr/project/key_pairs>
   ![key-pair](images/key-pair.png)
 - Launch a Virtual Machine:
-  - Source image name: `Ubuntu 20.04`
+  - Source image name: `Ubuntu 22.04`
   - Flavor: `m1.small`
   - Network: `dslab-demo`
   - Security Groups: `default`
