@@ -9,7 +9,7 @@ vm_name=my-vm
 key_name=my-key
 
 openstack server create \
-    --image "ubuntu-20.04" \
+    --image "ubuntu-24.04" \
     --flavor "m1.small" \
     --key-name "${key_name}" \
     --network dslab-demo \

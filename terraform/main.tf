@@ -26,7 +26,7 @@ variable "key_name" {
 }
 
 data "openstack_images_image_v2" "ubuntu" {
-  name        = "ubuntu-22.04"
+  name        = "ubuntu-24.04"
   most_recent = true
 }
 

@@ -1,10 +1,10 @@
 Host bastion
-    HostName 147.102.230.184
+    HostName 147.102.75.187
     User ubuntu
     IdentityFile ~/.ssh/bastion-key.pem
 
-Host skatsaounis-vm
-    HostName skatsaounis
+Host user-vm
+    HostName user-vm
     ProxyJump bastion
     User ubuntu
     IdentityFile ~/.ssh/skatsaounis-key.pem
